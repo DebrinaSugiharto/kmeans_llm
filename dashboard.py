@@ -97,7 +97,6 @@ def generate_insight_with_groq(cluster_profile, silhouette):
     Tolong jelaskan insight yang bisa diambil dari hasil clustering ini dalam bahasa Indonesia.
     - Apa karakteristik utama tiap cluster
     - Bagaimana kualitas cluster dilihat dari silhouette score
-    - Potensi penggunaan praktis dari segmentasi ini
     """
 
     response = llm.invoke(prompt)
